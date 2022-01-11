@@ -20,7 +20,7 @@ async function handleSubmit(e) {
     towerOfHanoi(N);
     animateBlocks();
     // await moveBlock(0, 1);
-    console.log(results);
+//     console.log(results);
 }
 function towerOfHanoi(n, start, helper, to) {
     if (start === void 0) {
